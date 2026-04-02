@@ -84,7 +84,7 @@
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/devlink.git
+git clone https://github.com/Prathamesh-2005/DevCard
 cd devlink
 ```
 
@@ -293,10 +293,6 @@ npm run lint         # Run ESLint
 
 ## 🚀 Deployment
 
-### Quick Deploy to Vercel
-
-See [QUICK_DEPLOY.md](./QUICK_DEPLOY.md) for step-by-step instructions.
-
 **TL;DR:**
 
 ```bash
@@ -444,7 +440,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Built with ❤️ by Developers, for Developers
 
-- **GitHub**: [@your-username](https://github.com/your-username)
+- **GitHub**: [@your-username](https://github.com/Prathamesh-2005)
 - **Email**: your.email@example.com
 - **Website**: your-website.com
 
@@ -457,38 +453,3 @@ Built with ❤️ by Developers, for Developers
 - [Tailwind CSS](https://tailwindcss.com) for beautiful styling
 - [React](https://react.dev) for amazing framework
 - All contributors and supporters!
-
----
-
-## 📮 Support
-
-Need help? Have questions?
-
-- 📖 Check the [documentation](./VERCEL_DEPLOYMENT.md)
-- 🐛 Report bugs via [GitHub Issues](https://github.com/yourusername/devlink/issues)
-- 💬 Start a [discussion](https://github.com/yourusername/devlink/discussions)
-
----
-
-## 🗺️ Roadmap
-
-- [ ] Custom domains for profiles
-- [ ] Theme customization (dark/light mode toggle)
-- [ ] Analytics dashboard
-- [ ] Email notifications
-- [ ] Profile views counter
-- [ ] QR code generation
-- [ ] Link preview analytics
-- [ ] Team collaboration features
-- [ ] Mobile app version
-- [ ] API for third-party integrations
-
----
-
-<div align="center">
-
-### Made with ❤️ for developers worldwide
-
-**[Deploy on Vercel](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/devlink)** • **[View Live Demo](#)** • **[Report Bug](#)**
-
-</div>
