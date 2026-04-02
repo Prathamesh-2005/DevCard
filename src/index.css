@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --background:  0 0% 3%;
+    --foreground:  0 0% 95%;
+    --card:        0 0% 4%;
+    --border:      0 0% 10%;
+    --primary:     160 84% 58%;
+    --primary-fg:  0 0% 0%;
+    --muted:       0 0% 12%;
+    --muted-fg:    0 0% 45%;
+    --radius:      0.75rem;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    @apply bg-[#080a0c] text-white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track { background: #0d0f11; }
+  ::-webkit-scrollbar-thumb { background: #1e2228; border-radius: 3px; }
+  ::-webkit-scrollbar-thumb:hover { background: #2a3038; }
+}
+
+@layer utilities {
+  .animate-in {
+    animation: fadeIn 0.4s ease both;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
